@@ -1,0 +1,111 @@
+
+/* 1. ESTILO GENERAL DE LA PÁGINA */
+
+body {
+    background-color: #9338fb; /* Color del fondo */
+    color: #e4e2e9; /* Color de las letras */
+    font-family: Arial, sans-serif; /* Tipo de letra */
+    margin: 0; /* Quita el espacio exterior */
+    padding: 20px; /* Deja espacio dentro de la página */
+}
+
+/* 2. PRESENTACIÓN: IMAGEN Y TEXTO  */
+
+.presentacion {
+    display: flex; /* Coloca la imagen y el texto en fila */
+    align-items: center; /* Centra la imagen y el texto verticalmente */
+    justify-content: center; /* Centra todo el grupo horizontalmente */
+    gap: 25px; /* Deja espacio entre la imagen y las palabras */
+    text-align: left; /* Alinea el texto hacia la izquierda */
+    padding: 30px; /* Deja espacio alrededor del contenido */
+    width: fit-content; /* Hace que el contenedor ocupe lo necesario */
+    max-width: 100%; /* Evita que se salga del espacio disponible */
+    margin: 0 auto; /* Centra el contenedor en la página */
+}
+
+
+/* Estilo de la imagen de presentación */
+
+.presentacion img {
+    width: 250px; /* Ancho de la imagen */
+    height: 250px; /* Alto de la imagen */
+    border-radius: 10px; /* Redondea las esquinas */
+    object-fit: cover; /* Evita que la imagen se deforme */
+    display: block; /* Permite controlar mejor su espacio */
+    margin: 0; /* Quita los márgenes de la imagen */
+}
+
+
+/* Título de la presentación */
+
+.presentacion h1 {
+    font-size: 40px; /* Tamaño de las letras */
+    color: #e5daf4; /* Color morado del título */
+}
+
+
+/* 3. NOMBRE PERSONALIZADO */
+
+.mi-nombre {
+    font-size: 60px; /* Hace el nombre más grande */
+    color: #9d0f9d; /* Cambia el color del nombre */
+    text-align: center; /* Centra el nombre */
+}
+
+
+/* 4. TÍTULOS DE LAS SECCIONES */
+
+h2 {
+    color: #784ddc; /* Color de los títulos */
+    font-size: 25px; /* Tamaño de los títulos */
+    border-bottom: 2px solid #af84dc; /* Línea debajo del título */
+    padding-bottom: 8px; /* Espacio entre el título y la línea */
+}
+
+
+/* 5. TARJETAS O SECCIONES */
+
+.seccion {
+    background-color: rgb(200, 179, 240); /* Fondo blanco de las tarjetas */
+    padding: 20px; /* Espacio dentro de cada tarjeta */
+    margin: 20px 0; /* Espacio entre las tarjetas */
+    border-radius: 15px; /* Redondea las esquinas */
+    box-shadow: 0 3px 10px #e3d2f9; /* Agrega una sombra suave */
+    transition: transform 0.3s ease; /* Hace suave el movimiento */
+}
+
+
+/* Efecto cuando pasamos el mouse por una tarjeta */
+
+.seccion:hover {
+    transform: translateY(-5px); /* Mueve la tarjeta un poquito hacia arriba */
+}
+
+
+/* 6. CONTENIDO PRINCIPAL */
+
+main {
+    max-width: 900px; /* Ancho máximo del contenido */
+    margin: 30px auto; /* Centra el contenido y deja espacio arriba y abajo */
+}
+
+
+/* 7. IMÁGENES EN GENERAL*/
+
+img {
+    width: 250px; /* Ancho general de las imágenes */
+    border-radius: 20px; /* Redondea sus esquinas */
+    display: block; /* Permite controlar su posición */
+    margin: 20px auto; /* Deja espacio y centra las imágenes */
+}
+
+
+/* 8. PIE DE PÁGINA */
+
+.pie-pagina {
+    text-align: center; /* Centra el texto */
+    padding: 25px; /* Deja espacio alrededor */
+    color: #e0cdfa; /* Color morado de las letras */
+    font-size: 14px; /* Tamaño pequeño del texto */
+    margin-top: 30px; /* Separa el pie de página del contenido */
+}
